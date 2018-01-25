@@ -4,4 +4,4 @@ const personSchema = mongoose.Schema({
 
 });
 
-module.exports = mongoose.model('Card', personSchema);
+module.exports = mongoose.model('Person', personSchema);
